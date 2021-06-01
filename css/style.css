@@ -1,0 +1,793 @@
+
+/*
+Theme Name: Kaskipartners WP theme bilding
+Theme URI: google.com
+Description: A colaboration project with my friend Tania Akter
+Version: 1.1
+Author: Mehrab Hossain
+Author URI: google.com
+*/
+
+html, body {
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Arial, Tahoma, sans-serif;
+}
+.color-w{
+  color: #ffffff;
+}
+.no-padding{
+  padding: 0;
+}
+.no-margin{
+  margin: 0;
+}
+.color-y{
+  color: #fbfb98;
+}
+.text-center{
+  text-align: center;
+}
+.border-divider {
+  border-bottom: 2px solid #efefef;
+}
+/* Landing section */
+.full-height {
+  height: 100%;
+}
+.landing-section{
+  background: #bdbdbd url("../images/image3.jpg") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+.landing-section-overlay{
+  background-color: rgba(0, 0, 0, .2);
+  height: 100%;
+}
+.cover-container{
+  padding: 1rem;
+}
+.kaski-logo img {
+  background: #ffffff;
+  padding: .4rem .7rem;
+  border: 3px solid #ffffff;
+  border-radius: 1rem;
+  height: 5rem;
+}
+.menu-icon {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  background: rgba(0, 0, 0, .02);
+  border-radius: .5rem;
+}
+.nav-items{
+  padding: 1.2rem 1rem;
+}
+.nav-items a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #4f4e4e;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: .5s;
+}
+.nav-items a:hover{
+  color: rgb(162, 13, 49);
+  transform: scale(1.2);
+}
+.nav-item.active{
+  color: rgb(162, 13, 49);
+}
+.nav-item{
+  padding: 1rem;
+  margin:0 1em;
+}
+.cover {
+  color: rgb(255, 255, 255);
+  border-color: rgb(189, 145, 68);
+  border-radius: 3px;
+  padding: 2rem 2rem;
+  padding-top: 10%; 
+  padding-left: 55%;
+  margin: auto;
+}
+.cover-overlay {
+  background-color: rgba(0, 0, 0, .6);
+  border-left: .5em solid #e8ac03;
+  padding: 4rem 3rem;
+  border-radius: 2em;
+  box-shadow: 1rem 1rem 1rem #000;
+}
+.cover-title{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.cover-subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.learn-more-btn {
+  font-size: 1.2rem;
+  line-height: 26px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  background-color: rgba(69, 125, 177, 0.96);
+  border-color: rgba(69, 125, 177, 0.96);
+  border-radius: 5px;
+  transition: .4s;
+}
+.learn-more-btn:hover {
+  color: #a20d31;
+  background: #fff;
+}
+.bottom-divider {
+  visibility: visible;
+  padding: 10% 0 0 0;
+}
+.bottom-divider img {
+  width: 100%;
+}
+.Navbar {
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+.menu-item a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #4f4e4e;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: .5s;
+}
+.menu-item a:hover{
+  color: rgb(162, 13, 49);
+  transform: scale(1.2);
+}
+
+/* Nav version two end*/
+
+/*Philosophy section */
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+.philosophy-section {
+  padding: 1rem 1rem;
+  text-align: center;}
+.philosophy-title {
+  padding: 0rem 1rem 1rem 1rem;
+}
+.philosophy-subtitle {
+  color: #676767;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 1rem 5rem 1rem 5rem;
+  width: 70%;
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.philosophy-items{
+  padding: 1rem 2rem;
+}
+.philosophy-item{
+  padding: 1rem;
+}
+.philosophy-item1, .philosophy-item4 {
+  padding-top: 3em;
+}
+.philosophy-item2, .philosophy-item3 {
+  padding-top: 5em;
+}
+.philosophy-item-icon {
+  margin: auto;
+  padding: 1rem;
+}
+.icon-wrap {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.philosophy-item-icon i {
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid rgba(30,66,120,0.07);
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: #b5b9bd;
+  background: rgba(30,66,120,0.07);
+  transition: .4s;
+}
+.philosophy-item-icon i:hover {
+  color: #ececec;
+  background: #c4c4c4;
+}
+.philosophy-item-title {
+  color: #666;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  padding: 1rem 1rem;
+  font-family: Open Sans,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.philosophy-item-btn {
+  background: rgba(30,66,120,0.07);
+  color: #03234c;
+  font-size: .9rem;
+  text-transform: capitalize;
+  padding: .4rem;
+  width: 50%;
+  margin: auto;
+  border-radius: 2rem;
+  transition: .4s;
+}
+.philosophy-item-btn:hover{
+  background: #ccc;
+}
+
+/*********** Intro section */
+.intro-section{
+  background: #2d373f;
+  padding: 0;
+  overflow: hidden;
+}
+.intro-bg {
+  height: 100%;
+  background: url(../images/image1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.intro-text {
+  color: #fff;
+  padding: 3rem 3rem 1rem 3rem;
+}
+.intro-section-details {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 3rem;
+}
+.list-pointer {
+  font-size: 1.3rem;
+  color: #e8ac05;
+  padding-right: .5rem;
+}
+.intro-btn{
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  background-color: rgba(69, 125, 177, 0.96);
+  border-color: rgba(69, 125, 177, 0.96);
+  border-radius: 3px;
+  transition: .4s;
+}
+.intro-btn:hover {
+  color: #a20d31;
+  background: #fff;
+}
+
+/*Story section */
+.story-section {
+  background: #2d373f;
+}
+.story-content{
+  margin: auto;
+}
+.story-section-details {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem .5rem;
+  line-height: 1rem;
+}
+.story-item{
+  padding: 1rem;
+}
+.story-item-left{
+  padding-right: 0;
+}
+.story-item-right{
+  padding-left: 0;
+}
+.story-section-details a {
+  color: #000;
+  text-decoration: none;
+}
+.co-year{
+  padding: 0rem .5rem 0rem 0rem;
+}
+.ch-company img {
+  background: #fff;
+  padding: .5rem;
+  height: 40px;
+  max-width: 180px;
+}
+.story-bg {
+  height: 100%;
+  background: url(../images/image2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+/* story section v3*/
+.story-section-v5{
+  background:#fff;
+}
+.story-grad-bg {
+  background: linear-gradient(to bottom, #3f535d , #232527);
+}
+.story-section-wrapper {
+  margin: auto;
+  padding: 2rem 3rem;
+}
+.year-icon {
+  text-align: right;
+  padding: 1em .1em;
+  font-size: 1.2em;
+}
+.co-logo {
+  padding: 1em .2em;
+}
+.ch-companyv3 img {
+  background: #fff;
+  padding: .5rem;
+  height: 60px;
+  max-width: 250px;
+}
+.ch-companyv5 img {
+  width: 100%;
+  background: #eff2f5;
+  padding: .5rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.story-full img{
+  width: 100%;
+}
+.co-desc {
+  color: #666;
+  font-size: .97rem;
+}
+
+/*Investments section */
+
+.invest-bg {
+  height: 100%;
+  background: url(../images/image4.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+}
+.invest-section-details{
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 3rem;
+}
+.number-section {
+  background: #2d373f url(../images/image1.jpg) no-repeat center;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.number-section-overlay {
+  background-color: rgba(0, 0, 0, .7);
+  padding: 3rem 2rem 3rem 2rem;
+}
+.section-subtitle {
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.number-item{
+  font-size: 3.5rem;
+}
+.number-title {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/*Contact section */
+.contact-section{
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f1f1f1;
+  color: #858585;
+}
+.contact-persons {
+  padding: 2rem 1rem;
+}
+.contact1 {
+  padding: 1rem 3rem;
+  max-width: 85%;
+  margin: auto;
+}
+.profile-pic img {
+  width: 100%;
+  padding: 1rem 1rem;
+  margin: 1.5rem 0;
+  transition: .5s;
+}
+.profile-pic img:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 0 10px #ccc;
+}
+.contact-name {
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #3e3e3e;
+}
+.contact-title {
+  color: #6c6c6c;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: .85rem;
+}
+.contact-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  padding: 2rem 1rem .6rem 1rem;
+  border-bottom: 3px solid #d4d3d3;
+  color: #6c6c6c;
+}
+.footer-section{
+  text-align: center;
+  color: #c4c4c4;
+  font-size: .9rem;
+}
+.footer-top{
+  padding: 2rem 2rem;
+  background: #253953;
+}
+.footer-logo img {
+  background: #c4c4c4;
+  padding: .4rem .7rem;
+  border: 3px solid #c4c4c4;
+  border-radius: 1rem;
+  height: 5rem;
+}
+.footer-bottom{
+  padding: 1rem 2rem;
+  background: #213149;
+}
+.copyright a {
+  text-decoration: none;
+  color: #c7c7c7;
+  font-weight: 600;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+    
+.Navbar__Items {
+    display:none;
+  }
+    
+.Navbar__Items--right {
+    margin-left:0;
+  }
+    
+.Navbar__ToggleShow {
+    display: flex;
+  }
+    
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
+
+/* cover intro */
+@media only screen and (min-width: 1400px){
+}
+
+@media only screen and (max-width: 1400px){
+
+  .cover-overlay {
+      padding: 3rem 2rem;
+      border-radius: 1em;
+  }
+  .cover-title {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 1280px){
+  .kaski-logo img {
+    height: 4rem;
+  }
+  .nav-item {
+    padding: .7rem .5rem;
+    margin: 0 .4em;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .landing-section {
+    background-size: cover;
+    background-position: center;
+  }
+  .cover-overlay {
+    padding: 3rem 1rem;
+  }
+  .container.cover-wrapper {
+    max-width: 90%;
+  }
+  .cover{
+    padding-top: 5%;
+    padding-left: 50%;
+  }
+  .cover-subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .Navbar__Items--right {
+    padding-top: .5em;
+  }
+  .menu-item a {
+    font-size: .8rem;
+    letter-spacing: 1px;
+  }
+  .cover-title{
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 900px){
+  .full-height {
+    height: auto;
+  }
+  .bottom-divider{
+    visibility: visible;
+  }
+  .Navbar {
+    padding: 16px 5px;
+  }
+  .cover {
+    padding: 5% 5%;
+  }
+}
+@media only screen and (max-width: 476px){
+  .cover-title {
+    font-size: 1.55rem;
+  }
+  .cover-subtitle {
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+  }
+  .learn-more-btn {
+    font-size: 1.1rem;
+    line-height: 24px;
+  } 
+}
+@media only screen and (max-width: 435px){
+  .cover-title {
+    font-size: 1.4rem;
+}
+  .bottom-divider{
+    margin-bottom: -2px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .cover-title {
+    font-size: 1.2rem;
+}
+.bottom-divider {
+  margin-bottom: -3px;
+}
+}
+@media only screen and (max-width: 366px){
+  .container.cover-wrapper {
+    max-width: 96%;
+}
+  .cover-title {
+    font-size: 1.1rem;
+    letter-spacing: 4px;
+}
+.cover-subtitle {
+  letter-spacing: 1.1px;
+}
+.learn-more-btn {
+  font-size: 1rem;
+  line-height: 20px;
+}
+}
+
+@media only screen and (max-width: 1300px){
+  .philosophy-item-title {
+    font-size: .9em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+    padding: 1rem .2rem;
+  }
+  .philosophy-item-btn {
+    font-size: .8rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .philosophy-subtitle {
+    width: 100%;
+  }
+  .philosophy-item-title {
+    font-size: .9em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+    padding: 1rem .2rem;
+  }
+  .philosophy-item-btn {
+    font-size: .8rem;
+    width: 50%;
+  }
+}
+
+/* Intro && Investments section*/
+
+@media only screen and (max-width: 1400px){
+  .intro-section-details,.invest-section-details {
+    line-height: 2rem;
+  }
+}
+@media only screen and (max-width: 768px){
+  .intro-text {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  .section-title.intro-section-title,.section-title.invest-section-title{
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  .intro-section-details,.invest-section-details {
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 575px){
+  .intro-text {
+    padding: 3rem 3rem 1rem 3rem;
+  }
+  .col-md-1.col-sm-1.col-xs-1 {
+    max-width: 10%;
+    text-align: right;
+  }
+  .col-md-11.col-sm-11.col-xs-11 {
+    max-width: 90%;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 380px){
+  .section-title.intro-section-title,.section-title.invest-section-title{
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  .intro-section-details,.invest-section-details  {
+    letter-spacing: 1.5px;
+    font-size: .9rem;
+    line-height: 1.4rem;
+  }
+}
+
+/* Story section*/
+
+@media only screen and (max-width: 768px){
+  .story-section-details {
+    font-size: 1rem;
+    padding: 1rem .5rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+  }
+  .co-desc {
+    font-size: .92rem;
+  }
+}
+@media only screen and (max-width: 575px){
+  .year-icon {
+    text-align: left;
+  }
+}
+
+/* Number section*/
+
+@media only screen and (max-width: 590px){
+  .number-section-overlay {
+    padding: 3rem .2rem 3rem .2rem;
+}
+  .section-title.number-section-title{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+/* Contact section */
+.col-20{
+  width: 20%;
+}
+@media only screen and (max-width: 1400px){
+  .contact1 {
+    padding: 1rem 1rem;
+  }
+}
+@media only screen and (max-width: 1280px){
+  
+}
+@media only screen and (max-width: 768px){
+  .contact1 {
+    padding: 1rem 1rem;
+  }
+  .contact2{
+    padding: 1rem 1rem;
+  }
+  .col-20{
+    width: 33.3333333333%;
+  }
+}
+@media only screen and (max-width: 575px){
+  .contact1 {
+    padding: 1rem 1rem;
+    max-width: 100%;
+  }
+  .col-20{
+    width: 100%;
+  }
+}
+
+/* footer section */
+
+@media only screen and (max-width: 768px){
+  .footer-logo img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 575px){
+  .footer-logo img {
+    width: auto;
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
+}
